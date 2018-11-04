@@ -1,0 +1,20 @@
+library(dplyr)
+library(ggplot2)
+library("maps")
+library(tidyr)
+library("readxl")
+library(shiny)
+library(plotly)
+library(ggthemes)
+library(highcharter)
+library(shinyjs)
+library(shinythemes)
+library(scales)
+library(stringr)
+library(rsconnect)
+
+source("my_ui.R")
+source("my_server.R")
+
+
+shinyApp(ui, server)
